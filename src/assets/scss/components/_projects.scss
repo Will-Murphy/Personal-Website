@@ -2,30 +2,28 @@
 /// Author: Will Murphy 
 ///
 
+/*Projects Styling */
 .projects-container{
-
     @include vendor('display', 'flex');
     @include vendor('align-items', 'center');
-    @include vendor('justify-content', 'center');
+    //@include vendor('justify-content', 'center');
     @include vendor('flex-direction', 'column');
     position: relative;
     max-width: inherit;
+    max-height: 460px;
+    overflow-y: scroll;
     z-index: 3;
 
 
     .project {
-        
-        min-height: 150px;
-        max-height: 250px;
         background:#383838;
-        opacity: 70%;
-        border-radius: 25px;
+        border-radius: 15px;
         width:90%;
         z-index: 1000;
         margin: 15px 15px;
         transition: all 500ms ease;
 
-        .project-icon {
+        .project-icon { 
             @include icon;
             clear:right;
             width: 54px;
@@ -35,6 +33,7 @@
         
         .project-text-wrapper { 
             padding: 10px 15px 10px 15px ;
+            margin-bottom: 50px;
             float:right;
             text-overflow: wrap
         }
@@ -50,12 +49,6 @@
             text-overflow: wrap
         }
 
-        #project-link h3:hover {
-            text-decoration: underline;
-            transition: ease-in-out 250ms;
-        }
-
-         
     }
 
     .project:hover {
@@ -65,6 +58,11 @@
             -webkit-transform: scale(1.03, 1.03);
             -o-transform: scale(1.03, 1.03);   
             transition: ease-in-out 250ms;
-        }
+        }  
 
+}
+
+#project-link h3:hover {
+    text-decoration: underline;
+    transition: ease-in-out 250ms;
 }

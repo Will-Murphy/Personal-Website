@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import Academics from './Academics.js'
+import Resume from './Resume.js'
 import Projects from './Projects.js'
 import UMASS from '../images/UMASS.jpg'
 import sunset from '../images/sunset.jpg'
@@ -53,12 +53,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">School</h2>
-          <span className="image main">
-            <img src={UMASS} alt="" />
-          </span>
+        <h2 className="major">Resume</h2>
 
-          <Academics></Academics>
+        <Resume></Resume>
           
           {close}
         </article>
@@ -85,6 +82,9 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
+          <span className="image main">
+            <img src={UMASS} alt="" />
+          </span>
           <p> 
             Please feel free to contact me by email:   
           </p>
@@ -96,6 +96,14 @@ class Main extends React.Component {
               <a
                 href="https://github.com/Will-Murphy"
                 className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/Will-Murphy"
+                className="icon fa-linkedin"
               >
                 <span className="label">GitHub</span>
               </a>
