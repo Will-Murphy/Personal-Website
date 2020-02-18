@@ -13,7 +13,7 @@ const Header = props => (
           Computer Science and Mathematics at University of Massachusetts, Amherst
         </p>
         <p>
-          Student and Aspiring Software Engineer
+          Aspiring Software Engineer
         </p>
       </div>
     </div>
