@@ -38,8 +38,7 @@ class Main extends React.Component {
           <p>
             Hi, my name is Will! I am a student at UMASS Amherst pursuing a career in software 
             engineering. Building software is my passion, but I'm also interested in finance
-            and entrepreneurship. In my free time I enjoy excercising, hiking, and learning about 
-            how things like cars and rockets work.
+            and entrepreneurship. 
           </p>
           <p>Thanks for checking out my site!</p>
           {close}
@@ -58,7 +57,7 @@ class Main extends React.Component {
           </span>
           <p>
             I am graduating from UMASS in May 2020 with a B.S. in Computer Science 
-            and Mathematics, heres what I've spent my time here doing!
+            and Mathematics, here's what I've spent my time here doing!
           </p>
           <ul> Academics:
             <li>Bay State Computer Science Scholar </li>
