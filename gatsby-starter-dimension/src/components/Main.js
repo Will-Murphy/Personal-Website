@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import UMASS from '../images/UMASS.jpg'
-import sunset from '../images/sunset.jpg'
+import pic01 from '../images/pic01.jpg'
+import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -21,30 +21,40 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
-
-      {/* #TODO: update article id and props variable names to what they display */}
         <article
           id="intro"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Intro</h2>
           <span className="image main">
-            <img src={sunset} alt="" />
+            <img src={pic01} alt="" />
           </span>
-          {/* #TODO: Change this, include more about software/building cool products */}
           <p>
-            Hi, my name is Will! I am a student at UMASS Amherst pursuing a career in software 
-            engineering. Building software is my passion, but I'm also interested in finance
-            and entrepreneurship. In my free time I enjoy excercising, hiking, and learning about 
-            how things like cars and rockets work.
+            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
+            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
+            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
+            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
+            By the way, check out my <a href="#work">awesome work</a>.
           </p>
-          <p>Thanks for checking out my site!</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
+            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
+            libero eu nibh porttitor fermentum. Nullam venenatis erat id
+            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
+            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
+            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
+            lectus. Pellentesque habitant morbi tristique senectus et netus et
+            malesuada fames ac turpis egestas. In non lorem sit amet elit
+            placerat maximus. Pellentesque aliquam maximus risus, vel sed
+            vehicula.
+          </p>
           {close}
         </article>
-        
+
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -52,64 +62,36 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">School</h2>
+          <h2 className="major">Work</h2>
           <span className="image main">
-            <img src={UMASS} alt="" />
+            <img src={pic02} alt="" />
           </span>
           <p>
-            I am graduating from UMASS in May 2020 with a B.S. in Computer Science 
-            and Mathematics, heres what I've spent my time here doing!
+            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
+            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
+            urna nisi, fringila lorem et vehicula lacinia quam. Integer
+            sollicitudin mauris nec lorem luctus ultrices.
           </p>
-          <ul> Academics:
-            <li>Bay State Computer Science Scholar </li>
-            <li>6 Deans List Awards </li>
-            <li>3.76 GPA</li>
-            <li>Honors College </li>
-          </ul>
-          <ul> Computer Science Courses :
-            <li> Algorithms</li>
-            <li> Data Structures </li>
-            <li> Software Engineering</li>
-            <li> Network and Cyber Security </li>
-            <li> Artificial Intelligence </li>
-            <li> Operating Systems </li>
-            <li> Reasoning Under Uncertainty </li>
-            <li> Formal Language Theory</li>
-            <li> Programming Methodology</li>
-            <li> Software Entrepreneurship</li>
-            <li> Social Issues in Computing</li>
-          </ul>
-          <ul> Math Courses :
-            <li> Differential Equations</li>
-            <li> Abstract Algebra</li>
-            <li> Linear Algebra </li>
-            <li> Statistics I & II </li>
-            <li> Calculus I & II</li>
-            <li> Mulitvariate Calculus</li>
-            <li> Scientific Computing</li>
-          </ul>
-          <ul> Other Courses :
-            <li> Physics I & II</li>
-            <li> Chemistry </li>
-            <li> Material Science </li>
-            <li> Thermodynamics </li>
-            <li> Philosophy</li>
-            <li> Psychology</li>
-            <li> Middle Eastern History</li>
-            <li> Human Evolution</li>
-          </ul>
-
+          <p>
+            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
+            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
+            Pellentesque condimentum sem. In efficitur ligula tate urna.
+            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
+            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
+            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
+            tempus.
+          </p>
           {close}
         </article>
 
         <article
           id="about"
-          className={`${this.props.article === 'projects' ? 'active' : ''} ${
+          className={`${this.props.article === 'about' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">projects</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>

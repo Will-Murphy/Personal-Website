@@ -8,17 +8,36 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Will Murphy </h1>
+        <h1>Dimension</h1>
         <p>
-          Computer Science and Mathematics at University of Massachusetts, Amherst
-        </p>
-        <p>
-          Aspiring Software Engineer
+          A fully responsive site template designed by{' '}
+          <a href="https://html5up.net">HTML5 UP</a> and released
+          <br />
+          for free under the{' '}
+          <a href="https://html5up.net/license">Creative Commons</a> license.
         </p>
       </div>
     </div>
     <nav>
       <ul>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('intro')
+            }}
+          >
+            Intro
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => {
+              props.onOpenArticle('work')
+            }}
+          >
+            Work
+          </button>
+        </li>
         <li>
           <button
             onClick={() => {
@@ -31,31 +50,12 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
-            }}
-          >
-            School
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('projects')
-            }}
-          >
-            Projects
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
               props.onOpenArticle('contact')
             }}
           >
             Contact
           </button>
         </li>
-        
       </ul>
     </nav>
   </header>
