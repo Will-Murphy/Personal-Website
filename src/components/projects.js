@@ -10,7 +10,8 @@ import C from '../images/icons/c.png'
 
 import React from 'react'
 
-{/* #TODO: Update this to split projects into folders by language 
+{/* 
+    #TODO: Update this to split projects into folders by language 
      IDEA: have picture for all be respective hello worlds  
 */}
  
@@ -18,9 +19,11 @@ import React from 'react'
 const Projects = () => (
     <span> 
         <p>
-            Here are some of my programming projects broken up by language. 
-            Unfortunately, I can't share source code for projects assigned in class - 
-            otherwise the blurbs below will link to its respective projects github repository.
+            Here are some of my programming projects categorized by language. 
+            Unfortunately, I can't publically share source code for projects that were 
+            assigned in my coursework - but I'd be more than happy to share code privately
+            if anyone is interested. Any projects of mine which I am at liberty to share are 
+            linked in their respective blurbs below.
         </p>
         <div className="projects-container"> 
 
@@ -139,8 +142,29 @@ const Projects = () => (
                     </div>
                 </div>
             </div>
+
             {/* JAVA */}
-            
+            <div className = "project">  
+                <img src = {Java} alt="icon" className = "project-icon"></img>
+                <div className = "project-text-wrapper"> 
+                    <h3 className = "project-title"> General Media Library</h3>
+                    <div className = "project-description"> 
+                       Mock Library infrastructure supporting sorting, searching, adding and removing 
+                       over a range of different media sub classes such as books and movies.
+                    </div>
+                </div>
+            </div>
+            <div className = "project">  
+                <img src = {Java} alt="icon" className = "project-icon"></img>
+                <div className = "project-text-wrapper"> 
+                    <h3 className = "project-title"> General Media Library</h3>
+                    <div className = "project-description"> 
+                       Mock Library infrastructure supporting sorting, searching, adding and removing 
+                       over a range of different media sub classes such as books and movies.
+                    </div>
+                </div>
+            </div>
+
             {/* C++ */}
             <div className = "project">  
                 <img src = {Cplusplus} alt="icon" className = "project-icon"></img>
@@ -214,10 +238,5 @@ const Projects = () => (
         </div>
     </span>
 )
-
-/*
-Projects.propTypes = {
-}
-*/
 
 export default Projects

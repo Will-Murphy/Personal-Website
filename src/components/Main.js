@@ -1,7 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
 import Resume from './Resume.js'
-import Projects from './Projects.js'
+import Projects from './Projects'
+import About from './About.js'
+import Contact from './Contact.js'
+
 import UMASS from '../images/UMASS.jpg'
 import sunset from '../images/sunset.jpg'
 import macbook from '../images/macbook.jpg'
@@ -36,13 +40,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={sunset} alt="" />
           </span>
-          {/* #TODO: Change this, include more about software/building cool products */}
-          <p>
-            Hi, my name is Will! I am a senior at UMASS Amherst pursuing a career in software 
-            engineering. Building software is my passion, but I'm also interested in finance 
-            and entrepreneurship.
-          </p>
-          <p>Thanks for checking out my site!</p>
+
+          <About></About>
+          
           {close}
         </article>
         
@@ -85,32 +85,12 @@ class Main extends React.Component {
           <span className="image main">
             <img src={UMASS} alt="" />
           </span>
-          <p> 
-            Please feel free to contact me by email:   
-          </p>
+           
+           <Contact></Contact>
 
-          <h4> wmurphy@umass.edu </h4>
-          <br></br>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://github.com/Will-Murphy"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/Will-Murphy"
-                className="icon fa-linkedin"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-          </ul>
           {close}
         </article>
+        
       </div>
     )
   }
