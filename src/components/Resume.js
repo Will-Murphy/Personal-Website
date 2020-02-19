@@ -125,8 +125,8 @@ const Resume = () => (
         <hr></hr>
 
         <h3> Projects: </h3>
-        <p>( X out of this section and see projects section!)</p>
-  
+        <p> see projects section! </p>
+
     </div>
 )
 

@@ -6,7 +6,6 @@ import Projects from './Projects'
 import About from './About.js'
 import Contact from './Contact.js'
 
-import UMASS from '../images/UMASS.jpg'
 import sunset from '../images/sunset.jpg'
 import macbook from '../images/macbook.jpg'
 
@@ -83,14 +82,14 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <span className="image main">
-            <img src={UMASS} alt="" />
+            <img src={macbook} alt="" />
           </span>
            
            <Contact></Contact>
 
           {close}
         </article>
-        
+
       </div>
     )
   }

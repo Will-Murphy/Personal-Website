@@ -154,17 +154,7 @@ const Projects = () => (
                     </div>
                 </div>
             </div>
-            <div className = "project">  
-                <img src = {Java} alt="icon" className = "project-icon"></img>
-                <div className = "project-text-wrapper"> 
-                    <h3 className = "project-title"> General Media Library</h3>
-                    <div className = "project-description"> 
-                       Mock Library infrastructure supporting sorting, searching, adding and removing 
-                       over a range of different media sub classes such as books and movies.
-                    </div>
-                </div>
-            </div>
-
+            
             {/* C++ */}
             <div className = "project">  
                 <img src = {Cplusplus} alt="icon" className = "project-icon"></img>
