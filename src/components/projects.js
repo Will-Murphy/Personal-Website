@@ -79,6 +79,17 @@ const Projects = () => (
                     </div>
                 </div>
             </div>
+            <div className = "project">  
+                <img src = {Python} alt="icon" className = "project-icon"></img>
+                <div className = "project-text-wrapper"> 
+                <h3 className = "project-title"> Connect4 AI Bot </h3>
+                    <div className = "project-description"> 
+                       Simulated a two player connect game, and implemented an artificially intelligent 
+                       player agent that utilized depth limited minimax algorithm with 
+                       streak heuristic function to choose its next move. 
+                    </div>
+                </div>
+            </div>
 
             {/* MATLAB */}
             <div className = "project">  

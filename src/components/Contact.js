@@ -10,7 +10,7 @@ const Contact = () => (
             Please feel free to contact me by email:   
           </p>
 
-          <h4> wmurphy@umass.edu </h4>
+          <h4> williammurphy9723@gmail.com </h4>
           <br></br>
           <ul className="icons">
             <li>
@@ -23,7 +23,7 @@ const Contact = () => (
             </li>
             <li>
               <a
-                href="https://github.com/Will-Murphy"
+                href="https://www.linkedin.com/in/will-murphy-5539651a5"
                 className="icon fa-linkedin"
               >
                 <span className="label">GitHub</span>

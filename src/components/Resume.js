@@ -84,7 +84,7 @@ const Resume = () => (
             </li>
             <li> 
                 Redesigned querying/ loading of data in internal data management dashboard to 
-                significantly increase performance 
+                notably increase performance
 
             </li>
             <li> 
@@ -99,7 +99,7 @@ const Resume = () => (
 
         <hr></hr>
 
-        <h3 > Leadership Experiance: </h3>
+        <h3 > Leadership Experience: </h3>
         <ul> <h5> Trip Student Leader and Coordinator @ Cuba Service Trip, Jul 2017</h5>
             <li> 
             Successfully planned and served as student leader of the first American trip to Manzanillo, 
@@ -115,7 +115,7 @@ const Resume = () => (
                 Managed service counter and cashier stations and personnel
             </li> 
             <li> 
-                Oversaw food prep and delivery trained new employees
+                Oversaw food prep and delivery
             </li> 
             <li> 
                 Trained new employees
@@ -125,7 +125,7 @@ const Resume = () => (
         <hr></hr>
 
         <h3> Projects: </h3>
-        <p> see projects section! </p>
+        <p> see the projects section! </p >
 
     </div>
 )
