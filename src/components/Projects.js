@@ -20,8 +20,8 @@ const Projects = () => (
         <p>
             Here are some of my programming projects categorized by language (order: Python,
             matlab, JavaScript, Java, C++, C). The source code for any projects which I can share 
-            are linked below in their respective blurbs. Otherwise, its part of my university 
-            coursework,and I can share it privately to anyone interested. 
+            are linked below in their respective blurbs. Otherwise, the project is part of my university 
+            coursework, and I can share it privately with anyone interested. 
         </p>
         <div className="projects-container"> 
 
