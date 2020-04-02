@@ -82,9 +82,11 @@ const Projects = () => (
                 <div className = "project-text-wrapper"> 
                 <h3 className = "project-title"> Connect Four AI Bot </h3>
                     <div className = "project-description"> 
-                       Simulated a two player Connect Four game, and implemented an artificially intelligent 
-                       adversarial agent that used a depth limited minimax algorithm with 
-                       and heuristic functions to choose its next move. 
+                       Simulated a two player Connect Four game. Implemented two
+                       artificially intelligent adversarial agents that used depth limited versions
+                       of the minimax/alpha-beta pruning algorithms and a heuristic function to choose 
+                       their moves in order to beat opponents. 
+
                     </div>
                 </div>
             </div>
