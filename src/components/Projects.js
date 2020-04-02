@@ -12,18 +12,16 @@ import React from 'react'
 
 {/* 
     #TODO: Update this to split projects into folders by language 
-     IDEA: have picture for all be respective hello worlds  
 */}
  
 
 const Projects = () => (
     <span> 
         <p>
-            Here are some of my programming projects categorized by language. 
-            Unfortunately, I can't publically share source code for projects that were 
-            assigned in my coursework - but I'd be more than happy to share code privately
-            if anyone is interested. Any projects of mine which I am at liberty to share are 
-            linked in their respective blurbs below.
+            Here are some of my programming projects categorized by language (order: Python,
+            matlab, JavaScript, Java, C++, C). The source code for any projects which I can share 
+            are linked below in their respective blurbs. Otherwise, its part of my university 
+            coursework,and I can share it privately to anyone interested. 
         </p>
         <div className="projects-container"> 
 
@@ -35,8 +33,8 @@ const Projects = () => (
                     <h3 className = "project-title"> Address Data Microservice </h3>
                 </a>
                     <div className = "project-description"> 
-                        Microservice built to use third party API's interchangably to process 
-                        stream and batch address data for validation, geo-coding and 
+                        Microservice built to use third party API's interchangably to augment
+                        stream and batch address data with validation, geo-coding and 
                         standardization.
                     </div>
                 </div>
@@ -49,7 +47,7 @@ const Projects = () => (
                 </a>
                     <div className = "project-description"> 
                         Command line  tool to for embedding and extraction of  secret images  
-                        in a specified number of  least significant bits of cover images.
+                        in a specified number of least significant bits of cover images.
                     </div>
                 </div>
             </div>
@@ -73,20 +71,20 @@ const Projects = () => (
                     <h3 className = "project-title"> Machine Learning Component - Orchard Watch </h3>
                 </a>
                     <div className = "project-description"> 
-                       Configured, built and deployed simple server running on an Amazon T2 Nano compute 
+                       Configured, built and deployed simple server running on an AWS EC2 compute 
                        instance to process and serve machine learning classifications on images uploaded 
-                       to S3 bucket from  main web application. 
+                       to AWS S3 bucket from  main web application. 
                     </div>
                 </div>
             </div>
             <div className = "project">  
                 <img src = {Python} alt="icon" className = "project-icon"></img>
                 <div className = "project-text-wrapper"> 
-                <h3 className = "project-title"> Connect4 AI Bot </h3>
+                <h3 className = "project-title"> Connect Four AI Bot </h3>
                     <div className = "project-description"> 
-                       Simulated a two player connect game, and implemented an artificially intelligent 
-                       player agent that utilized depth limited minimax algorithm with 
-                       streak heuristic function to choose its next move. 
+                       Simulated a two player Connect Four game, and implemented an artificially intelligent 
+                       adversarial agent that used a depth limited minimax algorithm with 
+                       and heuristic functions to choose its next move. 
                     </div>
                 </div>
             </div>
@@ -174,7 +172,7 @@ const Projects = () => (
                     <div className = "project-description"> 
                         Use pthread multithreading library and mutexs/locks to implement 
                         thread safe bounded bufffer with as many as 
-                        20 producer and producer threads trying to access it simltaneous.
+                        20 producer and consumer threads trying to access it simltaneously.
                     </div>
                 </div>
             </div>
@@ -185,7 +183,7 @@ const Projects = () => (
                     <div className = "project-description"> 
                         File system simulator that reads and writes to a 128KB simulated disk 
                         using file pointers as well simulated file inode and superblock metadata
-                        to determine the systems state and operate on in accordance with user commands. 
+                        to determine the systems state and operate on it in accordance with user commands. 
                     </div>
                 </div>
             </div>
@@ -207,7 +205,7 @@ const Projects = () => (
                 <div className = "project-text-wrapper"> 
                     <h3 className = "project-title"> Network Arithmetic Bot </h3>
                     <div className = "project-description"> 
-                        Established client-server connection using  Socket API and TCP, and 
+                        Established client-server connection using Socket API and TCP, and 
                         designed an interactive program to solve a series of consecutive 
                         problems sent from server until  “flag” was retrieved.
                     </div>

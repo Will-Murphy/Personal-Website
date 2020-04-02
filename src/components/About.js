@@ -9,7 +9,7 @@ const About = () => (
             Hi! My name is Will. I am a senior at UMASS Amherst pursuing a career in software 
             engineering. Solving problems involving logic, abstraction and mathematics is my passion - 
             and theres nothing I love more than doing so through software that provides value 
-            to an end user or allows for insights into the real world.
+            to end users or allows for insights into the real world.
         </p>
         <p>
             For this reason, and becuase I enjoy continual new learning experiances and challenges, 

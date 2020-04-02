@@ -68,7 +68,7 @@ const Resume = () => (
 
         <hr></hr>
 
-        <h3 > Work Experiance: </h3>
+        <h3 > Work Experience: </h3>
         <ul> <h5> Software Engineering Intern @ 
                 <a href ="https://decisionpointhealth.com">Decision Point Healthcare Solutions</a> 
                   <span></span>, May-Sep 2019 
