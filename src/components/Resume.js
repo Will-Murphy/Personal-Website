@@ -102,7 +102,7 @@ const Resume = () => (
         <h3 > Leadership Experience: </h3>
         <ul> <h5> Trip Student Leader and Coordinator @ Cuba Service Trip, Jul 2017</h5>
             <li> 
-            Successfully planned and served as student leader of the first American trip to Manzanillo, 
+            Successfully served as student leader and assisted in planning of the first American trip to Manzanillo, 
             Cuba since 1956. 
             </li> 
             <li> 

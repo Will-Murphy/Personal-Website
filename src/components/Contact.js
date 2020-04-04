@@ -7,7 +7,8 @@ import React from 'react'
 const Contact = () => (
         <span>
           <p> 
-            Please feel free to contact me by email:   
+            Please feel free to contact me by email, or connect with me on LinkedIn/
+            Github.
           </p>
 
           <h4> williammurphy9723@gmail.com </h4>

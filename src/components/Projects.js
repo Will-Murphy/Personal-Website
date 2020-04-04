@@ -19,9 +19,7 @@ const Projects = () => (
     <span> 
         <p>
             Here are some of my programming projects categorized by language (order: Python,
-            matlab, JavaScript, Java, C++, C). The source code for any projects which I can share 
-            are linked below in their respective blurbs. Otherwise, the project is part of my university 
-            coursework, and I can share it privately with anyone interested. 
+            Matlab, JavaScript, Java, C++, C). The source code is linked for projects that I can share.
         </p>
         <div className="projects-container"> 
 

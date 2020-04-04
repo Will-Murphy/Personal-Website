@@ -12,12 +12,29 @@ const About = () => (
             to end users or allows for insights into the real world.
         </p>
         <p>
-            For this reason, and becuase I enjoy continual new learning experiances and challenges, 
             I am most interested in full stack development. Although, I'd love to work 
-            on either end of the stack. Aside from software, I'm also interested in
-            finance and entrepreneurship.
+            on either end of the stack. Aside from software, I'm interested in
+            volunteering, excercise, finance and entrepreneurship.
     </p>
-    <p>     Thanks for checking out my site!</p>
+    <p>     Thanks for checking out my site! </p>
+    <ul className="icons">
+            <li>
+              <a
+                href="https://github.com/Will-Murphy"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/will-murphy-5539651a5"
+                className="icon fa-linkedin"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+          </ul>
     </span>
 )
 
