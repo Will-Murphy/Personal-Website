@@ -14,7 +14,7 @@ const About = () => (
         <p>
             I am most interested in full stack development. Although, I'd love to work 
             on either end of the stack. Aside from software, I'm interested in
-            volunteering, excercise, finance and entrepreneurship.
+            volunteering, excercise, and finance.
     </p>
     <p>     Thanks for checking out my site! </p>
     <ul className="icons">

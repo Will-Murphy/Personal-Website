@@ -15,7 +15,8 @@ const Resume = () => (
         <ul>  
             <li>Bay State Computer Science Scholar </li>
             <li>6 Deans List Awards </li>
-            <li>3.76 GPA</li>
+            <li>Cum Laude Honors </li>
+            <li>3.77 GPA</li>
             <li>Honors College </li>
         </ul>
         <h5>Computer Science Courses:</h5>
@@ -58,13 +59,13 @@ const Resume = () => (
 
         <h3 > Technical Skills: </h3>
             <h5> Programming Languages:</h5>
-            <p> Python, JavaScript, C++, C, HTML, CSS, Matlab, Java, SQL</p>
+            <p> Python, TypeScript, JavaScript, C++, C, HTML, CSS, Matlab, Java, SQL</p>
             <h5> Tools:</h5>
             <p> Linux, Git, AWS S3, AWS EC2, AWS Lambda, Latex, VScode, MS Suite,  
                 ssh, RSA Crypto, Wireshark, Markdown, Parallel Programming.
             </p>
             <h5> Frameworks:</h5>
-            <p> AngularJS, ReactJS, GatsbyJS, Python Flask & Alchemy, SCSS</p>
+            <p> Angular, ReactJS, GatsbyJS, Python Flask & Alchemy, SCSS</p>
 
         <hr></hr>
 
@@ -75,7 +76,7 @@ const Resume = () => (
             </h5>
             <li> 
                 Built frontend components, logic, and styling to improve functionality and 
-                usability of both internal and customer facing applications using AngularJS, 
+                usability of both internal and customer facing applications using Angular, 
                 HTML,  and CSS 
             </li>
             <li> 
@@ -102,11 +103,11 @@ const Resume = () => (
         <h3 > Leadership Experience: </h3>
         <ul> <h5> Trip Student Leader and Coordinator @ Cuba Service Trip, Jul 2017</h5>
             <li> 
-            Successfully served as student leader and assisted in planning of the first American trip to Manzanillo, 
+            Served as student leader and assisted in planning of the first American trip to Manzanillo, 
             Cuba since 1956. 
             </li> 
             <li> 
-            Founded a self-sustaining sports/rec. camp for the city’s youth & established a daily 
+            Assisted in founding a self-sustaining sports/rec. camp for the city’s youth & established a daily 
             attendance of 100+ local children
             </li> 
         </ul>

@@ -52,6 +52,20 @@ const Projects = () => (
             <div className = "project">  
                 <img src = {Python} alt="icon" className = "project-icon"></img>
                 <div className = "project-text-wrapper"> 
+                <a id="project-link"href = "https://github.com/Will-Murphy/steganography"> 
+                    <h3 className = "project-title"> Information Gain Decision Tree Classifier </h3>
+                </a>
+                    <div className = "project-description"> 
+                        Project that uses information gain to select features from data that are most 
+                        predictive of target feature. Implemented system to prevent overfitting and 
+                        acheived predictive accuracy of %93 on predicting which a party a member of 
+                        congress was from their voting data.
+                    </div>
+                </div>
+            </div>
+            <div className = "project">  
+                <img src = {Python} alt="icon" className = "project-icon"></img>
+                <div className = "project-text-wrapper"> 
                 <a id="project-link"href = "https://github.com/Will-Murphy/TCP-port-scan-detector"> 
                     <h3 className = "project-title"> Port Scan Detector</h3>
                 </a>
