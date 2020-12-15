@@ -10,7 +10,7 @@
     @include vendor('flex-direction', 'column');
     position: relative;
     max-width: inherit;
-    max-height: 460px;
+    max-height: 75vh;
     overflow-y: scroll;
     z-index: 3;
 
