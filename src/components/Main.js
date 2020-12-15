@@ -10,6 +10,10 @@ import sunset from '../images/sunset.jpg'
 import macbook from '../images/macbook.jpg'
 
 class Main extends React.Component {
+  constructor(props) {
+    super(props)
+    this.onChangeArticle = props.onChangeArticle.bind(this)
+  }
   render() {
     let close = (
       <div
@@ -54,7 +58,11 @@ class Main extends React.Component {
         >
         <h2 className="major">Resume</h2>
 
-        <Resume></Resume>
+        <Resume
+           onChangeArticle={this.props.onChangeArticle}
+        >
+            
+        </Resume>
           
           {close}
         </article>
@@ -100,6 +108,7 @@ Main.propTypes = {
   article: PropTypes.string,
   articleTimeout: PropTypes.bool,
   onCloseArticle: PropTypes.func,
+  onChangeArticle: PropTypes.func,
   timeout: PropTypes.bool,
   setWrapperRef: PropTypes.func.isRequired,
 }

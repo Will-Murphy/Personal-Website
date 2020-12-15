@@ -16,6 +16,7 @@ class IndexPage extends React.Component {
       loading: 'is-loading'
     }
     this.handleOpenArticle = this.handleOpenArticle.bind(this)
+    this.handleChangeArticle = this.handleChangeArticle.bind(this)
     this.handleCloseArticle = this.handleCloseArticle.bind(this)
     this.setWrapperRef = this.setWrapperRef.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
@@ -46,6 +47,8 @@ class IndexPage extends React.Component {
       article
     })
 
+    console.log('inside open', this.state.articleTimeout)
+    
     setTimeout(() => {
       this.setState({
         timeout: !this.state.timeout
@@ -58,10 +61,44 @@ class IndexPage extends React.Component {
       })
     }, 350)
 
+    console.log('end of open...', this.state.articleTimeout)
+    
+
+  }
+
+  async handleChangeArticle(article) {
+
+    
+    this.setState({
+      articleTimeout: !this.state.articleTimeout
+    })
+   
+    
+    setTimeout(() => {
+      this.setState({
+        timeout: !this.state.timeout
+      })
+    }, 300)
+
+    setTimeout(() => {
+      this.setState({
+        timeout: !this.state.timeout,
+        article
+      })
+    }, 375)
+
+    setTimeout(() => {
+      this.setState({
+        articleTimeout: !this.state.articleTimeout
+      })
+    }, 400 )
+
+     
+    
   }
 
   handleCloseArticle() {
-
+    
     this.setState({
       articleTimeout: !this.state.articleTimeout
     })
@@ -101,6 +138,7 @@ class IndexPage extends React.Component {
               articleTimeout={this.state.articleTimeout}
               article={this.state.article}
               onCloseArticle={this.handleCloseArticle}
+              onChangeArticle={this.handleChangeArticle}
               setWrapperRef={this.setWrapperRef}
             />
             <Footer timeout={this.state.timeout} />
