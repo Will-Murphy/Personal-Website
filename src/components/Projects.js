@@ -43,14 +43,6 @@ const Projects = () => (
             </Project>
             <Project
                 iconSrc={Python}
-                name="Address Data Microservice"
-                descr="Microservice built to use third party API's interchangably to augment
-                                   stream and batch address data with validation, geo-coding and 
-                                   standardization."
-                link="https://github.com/Will-Murphy/dp-address-project">
-            </Project>
-            <Project
-                iconSrc={Python}
                 name="Port Scan Detector"
                 descr="Tool that allows users to detect potential port scan attackers by analyzing 
                                 network traffic files and comparing the ratio of different types of TCP 
