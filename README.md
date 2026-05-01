@@ -25,3 +25,8 @@ Open `http://localhost:3000`.
 - App metadata wrapper: `app/layout.js`
 
 No Gatsby files or Gatsby build tooling remain.
+
+
+## Troubleshooting
+
+If `npm install` fails with `403 Forbidden` for `registry.npmjs.org`, your environment is blocking npm registry access (proxy/firewall policy). Set your npm registry/proxy settings appropriately and retry.
