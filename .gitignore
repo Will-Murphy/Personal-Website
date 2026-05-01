@@ -1,12 +1,12 @@
-# Project dependencies
-.cache
+# dependencies
 node_modules
-yarn-error.log
 
-# Build directory
-/public
+# build outputs
+.next
+out
+
+# misc
 .DS_Store
-package-lock.json
-
-
-
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log*
